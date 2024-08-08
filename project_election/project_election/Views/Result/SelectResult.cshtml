@@ -1,0 +1,167 @@
+﻿@{
+    ViewBag.Title = "SelectResult";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 30px; /* Adjust as needed */
+            flex: 1;
+        }
+
+        h1 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            margin-bottom: 20px;
+            padding: 0;
+            background: #333; /* Solid background color */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .card-subtitle {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        .card:hover {
+            transform: translateY(-10px); /* Slight lift effect */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        }
+
+        .card-category {
+            font-size: 16px;
+            background-color: rgba(0,0,0,0.6);
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            text-align: center;
+            padding: 20px;
+            color: #333; /* Dark text for readability */
+        }
+
+        .card-button {
+            display: block;
+            text-align: center;
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            margin: 20px auto;
+            width: fit-content;
+            transition: background-color 0.3s ease;
+        }
+
+            .card-button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper-grey">
+        <div class="container">
+            <h1>صفحة النتائج</h1>
+            <p>استعرض الفئات المختلفة وتفاصيل نتائج الانتخابات.</p>
+
+            <div class="row justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-xs-12 col-sm-4 mb-4">
+                    <div class="card">
+                        <div class="card-description">
+                            <h2 class="card-title">القوائم المحلية</h2>
+                        </div>
+                        <a class="card-button" href="@Url.Action("Areas", "Result")">التفاصيل</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-xs-12 col-sm-4 mb-4">
+                    <div class="card">
+                        <div class="card-description">
+                            <h2 class="card-title">القوائم الحزبية</h2>
+                        </div>
+                        <a class="card-button" href="@Url.Action("GeneralList", "Result")">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Including Bootstrap JS and its jQuery dependency -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

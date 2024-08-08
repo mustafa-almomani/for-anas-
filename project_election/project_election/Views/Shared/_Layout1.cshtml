@@ -1,0 +1,500 @@
+﻿<!DOCTYPE html>
+<html style=" overflow-x: hidden;">
+<head>
+    <title>@Page.Title</title>
+    @RenderSection("head", required: false)
+
+
+    <link rel="manifest"
+          href="https://devsnews.com/template/govtpress/govtpress/site.webmanifest/" />
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="~/Content/assets/img/favicon.ico" />
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Place favicon.ico in the root directory -->
+    <!-- CSS here -->
+    <link rel="stylesheet" href="~/Content/map.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/animate.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/all.min.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/flaticon.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/font.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/metisMenu.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/nice-select.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/slick.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/main.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        .c {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .header-04::before {
+            max-width: 100%;
+        }
+        .transparent-head-one {
+            position: static;
+        }
+        .main-header-04 {
+            padding: 0;
+            background-color: #434647e8;
+        }
+
+        .main-menu ul li > a {
+            color: #b7b7b7;
+            font-size: 14px;
+            line-height: 1;
+            font-family: "Roboto", sans-serif;
+            padding: 40px 0;
+            display: inline-block;
+            position: relative;
+            font-weight: 700;
+        }
+        body{
+            direction:rtl;
+        }
+     
+    </style>
+</head>
+
+
+<body>
+
+
+
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- preloader end  -->
+    <!-- header-area start -->
+    <header id="top-menu" class="transparent-head-one">
+        <div class="header-top-area header-04 pt-10 pb-10 d-none d-lg-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="top-cta">
+                            <span>موعد إنتهاء فترة الإنتخابات <b>@Session["endElection"]</b></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="top-right-nav d-flex justify-content-end">
+                            <div class="header-lang pr-25">
+                                <div class="header-lang__icon">
+                                    <span>العربية - Ar <i class="far fa-chevron-down"></i></span>
+                                </div>
+                                <ul class="header-lang__list">
+                                    <li><a href="#">العربية - Ar</a></li>
+                                    <li><a href="#">الإنجليزية - En</a></li>
+                                </ul>
+                            </div>
+                            <div class="top__social">
+                                <a href="https://www.facebook.com/IECjordan/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://x.com/iecjo?t=0JbUYmnlN3bkP1wXu3qIMw&s=08"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/channel/UChCqkXV9u6w_2d09UmA2i8w"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header-area main-header-04">
+            <div class="container">
+                <div class="row no-gutters align-items-center">
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-6">
+                        <div class="logo">
+                            <a class="logo-img" href="index-4.html">
+                                <img src="~/Content/assets/img/logo/Logo01-removebg-preview.png" width="50px" height="50px"
+                                     alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 d-none d-lg-block">
+                        <div class="main-menu main-menu-04 d-none d-lg-block text-right">
+                            <nav>
+                                <ul class="c">
+                                    <li>
+                                        @Html.ActionLink("الصفحة الرئيسية", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                                    </li>
+                                    <li>  @Html.ActionLink("من نحن ", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                                    <li>
+                                        <a href="#">خدماتنا <i class="far fa-chevron-down"></i></a>
+                                        <ul class="submenu">
+
+
+                                            @{
+                                                var result = string.Compare(Session["EndDateNominate"].ToString(), DateTime.Now.ToString());
+                                                if (result < 1)
+
+                                                {
+                                                    <li> @Html.ActionLink("طلب مناضرات", "Create", "Debates", new { area = "" }, new { @class = "nav-link" })</li>
+                                                    <li> @Html.ActionLink("اضافة اعلان ", "Create", "Advertisement", new { area = "" }, new { @class = "nav-link" })</li>
+
+                                                }
+                                                else
+                                                {
+
+                                                    <li> @Html.ActionLink("طلب ترشيح حزبي", "Create", "GeneralListings", new { area = "" }, new { @class = "nav-link" })</li>
+                                                    <li> @Html.ActionLink("طلب ترشيح محلي", "Create", "LocalLists", new { area = "" }, new { @class = "nav-link" })</li>
+
+                                                    <li> @Html.ActionLink("طلب مناضرات", "Create", "Debates", new { area = "" }, new { @class = "nav-link" })</li>
+                                                    <li> @Html.ActionLink("اضافة اعلان ", "Create", "Advertisement", new { area = "" }, new { @class = "nav-link" })</li>
+                                                    <li> @Html.ActionLink("النتائج", "SelectResult", "Result", new { area = "" }, new { @class = "nav-link" })</li>
+                                                }
+
+                                            }
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li> @Html.ActionLink("المناظرات", "Index", "Debates", new { area = "" }, new { @class = "nav-link" })</li>
+
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-6 text-right">
+                        <div class="hamburger-menu d-md-block d-lg-none">
+                            <a href="javascript:void(0);">
+                                <i class="far fa-bars"></i>
+                            </a>
+                        </div>
+                        <div class="main-header-right-one d-none d-lg-block">
+                            <div class="donate">
+                                <ul>
+                                    @{ var endofelection = string.Compare(Session["endElection"].ToString(), DateTime.Now.ToString());
+                                        if (endofelection < 1)
+                                        {
+                                            <li>
+                                                @Html.ActionLink("تسجيل الدخول", "Login", "USER", new { area = "" }, new { @class = "theme_btn theme_btn3" })
+                                            </li>
+                                        }
+
+                                    }
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-area end -->
+    <!-- slide-bar start -->
+    <aside class="slide-bar">
+        <div class="close-mobile-menu">
+            <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
+        </div>
+
+        <!-- offset-sidebar start -->
+        <div class="offset-sidebar">
+            <div class="offset-widget offset-logo mb-30">
+                <a href="index-4.html">
+                    <img src="~/Content/assets/img/logo/Logo01-removebg-preview.png" width="50px" height="50px" alt="logo">
+                </a>
+            </div>
+            <div class="offset-widget mb-40">
+                <div class="info-widget">
+                    <h4 class="offset-title mb-20">About Us</h4>
+                    <p class="mb-30">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                        was born and will give you a complete account of the system and expound the actual teachings of
+                        the great explore
+                    </p>
+                    <a class="theme_btn theme_btn2" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="offset-widget mb-30 pr-10">
+                <div class="info-widget info-widget2">
+                    <h4 class="offset-title mb-20">Contact Info</h4>
+                    <p> <i class="fal fa-address-book"></i> 23/A, Miranda City Likaoli Prikano, Dope</p>
+                    <p> <i class="fal fa-phone"></i> +0989 7876 9865 9 </p>
+                    <p> <i class="fal fa-envelope-open"></i> <a href="https://www.devsnews.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fa93949c95ba9f829b978a969fd4999597">[email&#160;protected]</a> </p>
+                </div>
+            </div>
+        </div>
+        <!-- offset-sidebar end -->
+        <!-- side-mobile-menu start -->
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+            <div class="container">
+                @Html.ActionLink("الصفحة الرئيسية", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            @Html.ActionLink("home ", "Index", "Home", new { area = "" }, new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("من نحن ", "About", "Home", new { area = "" }, new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="@Url.Action("Services", "Home")">Services</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("ServicesDetails", "Home")">Services Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Events
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+                                <li><a class="dropdown-item" href="@Url.Action("Events", "Home")">Events List</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("EventsDetails", "Home")">Events Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="newsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="newsDropdown">
+                                <li><a class="dropdown-item" href="@Url.Action("News", "Home")">News Single</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("NewsDetails", "Home")">News Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                <li><a class="dropdown-item" href="@Url.Action("Team", "Home")">Our Team</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("TeamDetails", "Home")">Team Details</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Faq", "Home")">Faq</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("History", "Home")">History</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Contact", "Home")">Contact Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- side-mobile-menu end -->
+    </aside>
+    <div class="body-overlay"></div>
+    <!-- slide-bar end -->
+    <br />
+
+
+
+    @RenderBody()
+
+
+
+
+
+    @*footer-area start*@
+    <footer class="footer-area pos-rel border-bg pt-180">
+        <div class="container">
+            <div class="row mb-30">
+                <div class="col-xl-4 col-lg-6 col-md-8">
+                    <div class="footer__widget footer__widget__04 mb-25 pr-40">
+                        <div class="footer-box d-flex justify-content-between">
+                            <div class="logo">
+                                <a href="@Url.Action("Index", "Home")" class="logo-img">
+                                    <img src="~/Content/assets/img/logo/Logo01-removebg-preview.png" width="50px" height="50px" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <p class="mb-35">
+                            يُعد أحد أبرز وأحدث المواقع في الأردن، والذي يساهم بشكل فعال في تسهيل وتطوير عمليات الانتخابات في المملكة الأردنية الهاشمية. اكتشف كيفية تحسين أداء الانتخابات
+                            وتيسير الإجراءات بفضل تقنياتنا المتقدمة. نحن هنا لتلبية احتياجاتك في كل خطوة!
+                        </p>
+                        <div class="foter__social mt-10">
+                            <a href="https://www.facebook.com/IECjordan/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/iecjo?t=0JbUYmnlN3bkP1wXu3qIMw&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/iecjo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@entikhabat.jo" target="_blank"><i class="fab fa-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4">
+                    <div class="footer__widget footer__widget__04 mb-30">
+                        <h6 class="fot-title mb-30">المزيد من الصفحات</h6>
+                        <ul class="fot-list">
+                            <li>@Html.ActionLink("الخدمة عبر الإنترنت", "OnlineService", "Home")</li>
+                            <li>@Html.ActionLink("السكان", "Population", "Home")</li>
+                            <li>@Html.ActionLink("المهنة", "Profession", "Home")</li>
+                            <li>@Html.ActionLink("الزيارة", "Visit", "Home")</li>
+                            <li>@Html.ActionLink("التوظيف", "Employment", "Home")</li>
+                            <li>@Html.ActionLink("التعليم", "Education", "Home")</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4">
+                    <div class="footer__widget footer__widget__04 mb-30">
+                        <h6 class="fot-title mb-30">معلومات عن إنتخب</h6>
+                        <ul class="fot-list">
+                            <li>@Html.ActionLink("لماذا أخترتنا", "WhyChooseUs", "Home")</li>
+                            <li>@Html.ActionLink("الحلول التي نقدمها", "Solutions", "Home")</li>
+                            <li>@Html.ActionLink("القيم الجوهرية", "CoreValues", "Home")</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-8">
+                    <div class="footer__widget widget__03 mb-30">
+                        <h6 class="fot-title mb-30">موجز الأخبار</h6>
+                        <div class="post d-flex align-items-center mb-10">
+                            <div class="post__thumb mr-20">
+                                <img src="~/Content/assets/img/news/Mabrok.jpg" width="80px" height="80px" alt="">
+                            </div>
+                            <div class="post__content">
+                                <span><i class="fal fa-calendar-alt"></i> 3/8/2024</span>
+                                <h6 class="fot-title">@Html.ActionLink("أنتخب تهنئ ولي العهد والأميرة رجوة بقدوم الإميرة الصغيرة إيمان", "NewsDetails", "Home")</h6>
+                            </div>
+                        </div>
+                        <div class="post d-flex align-items-center mb-10">
+                            <div class="post__thumb mr-20">
+                                <img src="~/Content/assets/img/news/Ijra2at.jpeg" width="80px" height="80px" alt="">
+                            </div>
+                            <div class="post__content">
+                                <span><i class="fal fa-calendar-alt"></i> 2/8/2024</span>
+                                <h6 class="fot-title">@Html.ActionLink("إجراءات الترشح تمت بكل دقة وسلاسة", "NewsDetails", "Home")</h6>
+                            </div>
+                        </div>
+                        <div class="post d-flex align-items-center">
+                            <div class="post__thumb mr-20">
+                                <img src="~/Content/assets/img/news/Women.jpg" width="80px" height="80px" alt="">
+                            </div>
+                            <div class="post__content">
+                                <span><i class="fal fa-calendar-alt"></i> 24/7/2024</span>
+                                <h6 class="fot-title">@Html.ActionLink("المستقلة للانتخاب تطلق الإطار المرجعي لتمكين المرأة في الانتخاب والأحزاب", "NewsDetails", "Home")</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy-right grey-bg-04 pt-25 pb-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-4 col-md-8">
+                        <div class="fot-nav">
+                            <ul class="fot-nav-list fot-nav-list-02">
+                                <li>@Html.ActionLink("الشروط والأحكام", "Terms", "Home")</li>
+                                <li>@Html.ActionLink("سياسة الاسترجاع", "ReturnPolicy", "Home")</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-8 col-md-4">
+                        <div class="copy-right-area-02 copy-right-area-03 text-right">
+                            <span>جميع حقوق النشر محفوطة @Html.ActionLink("إنتخب", "About", "Home") - 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    @*footer-area end*@
+
+
+
+
+
+    @{
+        var endElection = Session["endElection"] as DateTime?;
+    }
+    <div class="container mt-5">
+        <div class="card shadow-lg">
+            <div class="card-header bg-primary text-white text-center">
+                <h2 class="card-title mb-0">العد التنازلي للانتخابات</h2>
+            </div>
+            <div class="card-body text-center">
+                @if (endElection.HasValue)
+                {
+                    <p class="h5 mb-4">تاريخ انتهاء الانتخابات: <span class="font-weight-bold">@endElection.Value.ToString("yyyy-MM-dd HH:mm:ss")</span></p>
+                    <div id="countdown" class="display-4 p-3 border border-secondary rounded bg-light text-secondary"></div>
+                }
+                else
+                {
+                    <div class="alert alert-warning" role="alert">
+                        لا يوجد تاريخ لانتهاء الانتخابات متاح.
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <script>
+    var endElectionDate = new Date('@endElection.Value.ToString("yyyy-MM-ddTHH:mm:ss")').getTime();
+    var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = endElectionDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "انتهت";
+        }
+    }, 1000);
+    </script>
+
+
+
+
+
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="~/Scripts/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="~/Scripts/js/popper.min.js"></script>
+    <script src="~/Scripts/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/js/owl.carousel.min.js"></script>
+    <script src="~/Scripts/js/isotope.pkgd.min.js"></script>
+    <script src="~/Scripts/js/slick.min.js"></script>
+    <script src="~/Scripts/js/jquery.meanmenu.min.js"></script>
+    <script src="~/Scripts/js/metisMenu.min.js"></script>
+    <script src="~/Scripts/js/jquery.nice-select.js"></script>
+    <script src="~/Scripts/js/ajax-form.js"></script>
+    <script src="~/Scripts/js/wow.min.js"></script>
+    <script src="~/Scripts/js/jquery.scrollUp.min.js"></script>
+    <script src="~/Scripts/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/Scripts/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/js/jquery.easypiechart.js"></script>
+    <script src="~/Scripts/js/tilt.jquery.js"></script>
+    <script src="~/Scripts/js/plugins.js"></script>
+    <script src="~/Scripts/js/main.js"></script>
+    <script src="~/Content/map.js" defer></script>
+    <!-- Ensure Bootstrap CSS and JS are included correctly -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

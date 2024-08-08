@@ -1,0 +1,145 @@
+﻿@model IEnumerable<project_election.Models.Area>
+
+@{
+    ViewBag.Title = "Election Areas in Jordan";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="~/Content/assets/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+            .card img {
+                border-bottom: 1px solid #ddd;
+                height: 150px; /* Adjust height to make cards smaller */
+                object-fit: cover; /* Ensure image fits within the height */
+            }
+
+        .card-body {
+            padding: 10px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .card-subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .card-category {
+            font-size: 16px;
+            background-color: rgba(0,0,0,0.6);
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h2>الدوائر الانتخابية في الاردن</h2>
+        <p>يوجد في الأردن 18 منطقة انتخابية متميزة، تمثل كل منها منطقة رئيسية للانتخابات المقبلة.</p>
+        <div class="row">
+            @foreach (var area in Model)
+            {
+                string imageUrl = area.Governorate == "Irbid" ? "https://www.iec.jo/themes/custom/iec/share-image.png" : "https://www.iec.jo/themes/custom/iec/share-image.png";
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="@imageUrl" class="card-img-top" alt="Area Image">
+                        <div class="card-body">
+                            <div class="card-category">@area.Governorate</div>
+                            <h5 class="card-title">@area.NameOfElectionArea</h5>
+
+                            <a href="@Url.Action("Lists", "Result", new { id = area.ElectionAreaID })" class="btn btn-primary">التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
