@@ -100,6 +100,7 @@
     <EntitySetMapping Name="LocalLists">
       <EntityTypeMapping TypeName="electionModel.LocalList">
         <MappingFragment StoreEntitySet="LocalList">
+          <ScalarProperty Name="image" ColumnName="image" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="ListName" ColumnName="ListName" />
           <ScalarProperty Name="NumberOfVotes" ColumnName="NumberOfVotes" />
@@ -113,6 +114,7 @@
     <EntitySetMapping Name="LocalListCandidates">
       <EntityTypeMapping TypeName="electionModel.LocalListCandidate">
         <MappingFragment StoreEntitySet="LocalListCandidates">
+          <ScalarProperty Name="image" ColumnName="image" />
           <ScalarProperty Name="CandidateID" ColumnName="CandidateID" />
           <ScalarProperty Name="CandidateName" ColumnName="CandidateName" />
           <ScalarProperty Name="NationalNumber" ColumnName="NationalNumber" />
@@ -130,6 +132,7 @@
     <EntitySetMapping Name="Payments">
       <EntityTypeMapping TypeName="electionModel.Payment">
         <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="PaymentGateway" ColumnName="PaymentGateway" />
           <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
           <ScalarProperty Name="Amount" ColumnName="Amount" />
           <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />

@@ -14,8 +14,8 @@
       <PropertyRef Name="AdID" />
     </Key>
     <Property Name="AdID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="URLPath" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="PaymentID" Type="Int32" Nullable="false" />
     <Property Name="StatusOfAds" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
@@ -35,7 +35,7 @@
     <Property Name="ElectionAreaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="NameOfElectionArea" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="NumberOfElectoralSeats" Type="Int32" />
-    <Property Name="Governorate" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Governorate" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="LocalLists" Relationship="electionModel.AREA_FK" FromRole="Area" ToRole="LocalList" />
   </EntityType>
   <EntityType Name="Contact">
@@ -105,6 +105,7 @@
     <Property Name="ElectionAreaID" Type="Int32" />
     <NavigationProperty Name="LocalListCandidates" Relationship="Self.FK__LocalList__Local__49C3F6B7" FromRole="LocalList" ToRole="LocalListCandidates" />
     <NavigationProperty Name="Area" Relationship="electionModel.AREA_FK" FromRole="LocalList" ToRole="Area" />
+    <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="LocalListCandidate">
     <Key>
@@ -122,6 +123,7 @@
     <Property Name="Gender" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="Sucess" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="LocalList" Relationship="Self.FK__LocalList__Local__49C3F6B7" FromRole="LocalListCandidates" ToRole="LocalList" />
+    <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="Payment">
     <Key>
@@ -134,6 +136,7 @@
     <Property Name="TransactionID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
     <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="Ads" Relationship="Self.FK__Ads__PaymentID__60A75C0F" FromRole="Payment" ToRole="Ads" />
+    <Property Name="PaymentGateway" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="User">
     <Key>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -44,17 +45,60 @@ namespace project_election.Controllers
         // POST: LocalLists/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,ListName,NumberOfVotes,ElectionArea,Governorate")] LocalList localList)
+        public ActionResult Create(LocalList model, HttpPostedFileBase ImageFile)
         {
             if (ModelState.IsValid)
             {
-                db.LocalLists.Add(localList);
-                db.SaveChanges();
-                return RedirectToAction("Create", "LocalListCandidates", new { listName = localList.ListName });
+                if (ImageFile != null && ImageFile.ContentLength > 0)
+                {
+                    try
+                    {
+                        // تحديد اسم الصورة
+                        string fileName = Path.GetFileName(ImageFile.FileName);
+
+                        // تحديد المسار الذي سيتم حفظ الصورة فيه
+                        string path = Path.Combine(Server.MapPath("~/img"), fileName);
+
+                        // حفظ الصورة في المسار المحدد
+                        ImageFile.SaveAs(path);
+
+                        // تعيين المسار للمتغير ليتم تخزينه في قاعدة البيانات
+                        model.image = "~/img/" + fileName;
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", "حدث خطأ أثناء حفظ الصورة: " + ex.Message);
+                        return View(model);
+                    }
+                }
+                else
+                {
+                    // في حالة عدم وجود صورة، تأكد من تعيين قيمة فارغة للمسار
+                    model.image = null;
+                }
+
+                // التحقق من وجود قائمة بنفس الاسم
+                if (db.LocalLists.Any(l => l.ListName == model.ListName))
+                {
+                    // إذا كان الاسم موجودًا، عرض رسالة خطأ
+                    ModelState.AddModelError("ListName", "اسم القائمة موجود بالفعل. يرجى اختيار اسم آخر.");
+                    return View(model); // عرض النموذج مع رسالة الخطأ
+                }
+
+                // استخدام TempData لتخزين بيانات النموذج مؤقتًا
+                TempData["ListName"] = model.ListName;
+                TempData["ElectionArea"] = model.ElectionArea;
+                TempData["Governorate"] = model.Governorate;
+                TempData["NumberOfVotes"] = 0;
+                TempData["Image"] = model.image;
+
+                // الانتقال إلى صفحة تسجيل المرشحين
+                return RedirectToAction("Create", "LocalListCandidates");
             }
 
-            return View(localList);
+            return View(model); // عرض النموذج مع رسائل الخطأ
         }
+
 
         // GET: LocalLists/Edit/5
         public ActionResult Edit(int? id)

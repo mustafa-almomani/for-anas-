@@ -45,39 +45,35 @@ namespace project_election.Controllers
         // POST: LocalListCandidates/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(List<LocalListCandidate> candidates, string listName)
+        public ActionResult Create(List<LocalListCandidate> candidates, string ListName, string ElectionArea, string Governorate ,string Image)
         {
-
-            if (ModelState.IsValid)
+            // إنشاء وحفظ قائمة جديدة
+            LocalList localList = new LocalList
             {
-                // تحقق من عدد المرشحين من نوع "كوتا" و "مسيحي"
-                int kotaCount = candidates.Count(c => c.typeofCandidates == "كوتا");
-                int christianCount = candidates.Count(c => c.typeofCandidates == "مسيحي");
-                var listID = db.LocalLists.FirstOrDefault(x => x.ListName == listName);
-                if (kotaCount > 1 || christianCount > 1)
-                {
-                    ModelState.AddModelError("", "لا يمكن إدخال أكثر من مرشح واحد من نوع كوتا أو مسيحي.");
-                    ViewBag.ListName = listName;
-                    return View(candidates);
-                }
+                
+                ListName = ListName,
+                ElectionArea = ElectionArea,
+                Governorate = Governorate,
+                NumberOfVotes = 0,
+                image= Image
+                
+            };
+            db.LocalLists.Add(localList);
+            db.SaveChanges();
 
-                foreach (var candidate in candidates)
-                {
-                    candidate.listname = listName;
-                    candidate.LocalListingID = listID.ID;
-                    // تعيين اسم القائمة بدلاً من معرف القائمة
-                    db.LocalListCandidates.Add(candidate);
-                }
+            // حفظ بيانات المرشحين وربطهم بالقائمة
+            foreach (var candidate in candidates)
+            {
+                candidate.listname = localList.ListName; // الربط باستخدام معرف القائمة المحفوظة
 
-                db.SaveChanges();
-                return RedirectToAction("Payment", "Advertisement", new { id = listID.ID });
-
-                return RedirectToAction("Index"); // توجيه المستخدم إلى صفحة أخرى بعد الحفظ
+                db.LocalListCandidates.Add(candidate);
             }
+            db.SaveChanges();
 
-            ViewBag.ListName = listName;
-            return View(candidates);
+            // إعادة توجيه المستخدم إلى صفحة النجاح أو صفحة أخرى
+            return RedirectToAction("index");
         }
+
 
         // POST: LocalListCandidates/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 

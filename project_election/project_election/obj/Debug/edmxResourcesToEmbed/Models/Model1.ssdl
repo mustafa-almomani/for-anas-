@@ -14,8 +14,8 @@
       <PropertyRef Name="AdID" />
     </Key>
     <Property Name="AdID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Title" Type="varchar" MaxLength="100" Nullable="false" />
-    <Property Name="Content" Type="varchar(max)" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="255" />
+    <Property Name="Content" Type="nvarchar" MaxLength="255" />
     <Property Name="URLPath" Type="varchar(max)" Nullable="false" />
     <Property Name="PaymentID" Type="int" Nullable="false" />
     <Property Name="StatusOfAds" Type="varchar" MaxLength="100" />
@@ -34,7 +34,7 @@
     <Property Name="ElectionAreaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NameOfElectionArea" Type="nvarchar" MaxLength="255" Nullable="false" />
     <Property Name="NumberOfElectoralSeats" Type="int" />
-    <Property Name="Governorate" Type="varchar" MaxLength="50" />
+    <Property Name="Governorate" Type="nvarchar" MaxLength="255" />
   </EntityType>
   <EntityType Name="Contact">
     <Key>
@@ -99,6 +99,7 @@
     <Property Name="Governorate" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Sucess" Type="bit" Nullable="false" />
     <Property Name="ElectionAreaID" Type="int" />
+    <Property Name="image" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="LocalListCandidates">
     <Key>
@@ -115,6 +116,7 @@
     <Property Name="listname" Type="nvarchar" MaxLength="255" />
     <Property Name="Gender" Type="nvarchar" MaxLength="20" />
     <Property Name="Sucess" Type="bit" Nullable="false" />
+    <Property Name="image" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="Payment">
     <Key>
@@ -126,6 +128,7 @@
     <Property Name="PaymentMethod" Type="nvarchar" MaxLength="50" />
     <Property Name="TransactionID" Type="nvarchar" MaxLength="100" />
     <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentGateway" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="Users">
     <Key>

@@ -25,6 +25,7 @@ namespace project_election.Models
         public string listname { get; set; }
         public string Gender { get; set; }
         public bool Sucess { get; set; }
+        public string image { get; set; }
     
         public virtual LocalList LocalList { get; set; }
     }

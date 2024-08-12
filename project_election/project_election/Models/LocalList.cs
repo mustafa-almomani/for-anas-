@@ -27,6 +27,7 @@ namespace project_election.Models
         public string Governorate { get; set; }
         public bool Sucess { get; set; }
         public Nullable<int> ElectionAreaID { get; set; }
+        public string image { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<LocalListCandidate> LocalListCandidates { get; set; }

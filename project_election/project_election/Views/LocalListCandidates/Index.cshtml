@@ -2,7 +2,7 @@
 
 @{
     ViewBag.Title = "Index";
-    Layout="~Content/"
+   
 }
 <head>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
@@ -36,11 +36,12 @@
                                     </div>
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item">
+                                       
                                             <p><strong>الرقم الوطني:</strong> @candidate.NationalNumber</p>
                                             <p><strong>المحافظة:</strong> @candidate.Governorate</p>
                                             <p><strong>منطقة الانتخابات:</strong> @candidate.ElectionArea</p>
                                             <p><strong>نوع الترشيح:</strong> @candidate.typeofCandidates</p>
-                                            <p><strong>الجنس:</strong> @candidate.Gender</p>
+                                             <p><strong>الجنس:</strong> @candidate.Gender</p>
                                             <p>
                                                 @Html.ActionLink("Details", "Details", new { id = candidate.CandidateID }, new { @class = "btn btn-sm btn-primary mr-1" })
                                                 @Html.ActionLink("Delete", "Delete", new { id = candidate.CandidateID }, new { @class = "btn btn-sm btn-danger" })

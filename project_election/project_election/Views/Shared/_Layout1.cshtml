@@ -132,17 +132,11 @@
                                         <ul class="submenu">
 
 
-                                            @{
-                                                var result = string.Compare(Session["EndDateNominate"].ToString(), DateTime.Now.ToString());
-                                                if (result < 1)
-
-                                                {
+                                          
                                                     <li> @Html.ActionLink("طلب مناضرات", "Create", "Debates", new { area = "" }, new { @class = "nav-link" })</li>
                                                     <li> @Html.ActionLink("اضافة اعلان ", "Create", "Advertisement", new { area = "" }, new { @class = "nav-link" })</li>
 
-                                                }
-                                                else
-                                                {
+                                              
 
                                                     <li> @Html.ActionLink("طلب ترشيح حزبي", "Create", "GeneralListings", new { area = "" }, new { @class = "nav-link" })</li>
                                                     <li> @Html.ActionLink("طلب ترشيح محلي", "Create", "LocalLists", new { area = "" }, new { @class = "nav-link" })</li>
@@ -150,9 +144,7 @@
                                                     <li> @Html.ActionLink("طلب مناضرات", "Create", "Debates", new { area = "" }, new { @class = "nav-link" })</li>
                                                     <li> @Html.ActionLink("اضافة اعلان ", "Create", "Advertisement", new { area = "" }, new { @class = "nav-link" })</li>
                                                     <li> @Html.ActionLink("النتائج", "SelectResult", "Result", new { area = "" }, new { @class = "nav-link" })</li>
-                                                }
-
-                                            }
+                                           
 
 
                                         </ul>
@@ -176,16 +168,11 @@
                         <div class="main-header-right-one d-none d-lg-block">
                             <div class="donate">
                                 <ul>
-                                    @{ var endofelection = string.Compare(Session["endElection"].ToString(), DateTime.Now.ToString());
-                                        if (endofelection < 1)
-                                        {
-                                            <li>
-                                                @Html.ActionLink("تسجيل الدخول", "Login", "USER", new { area = "" }, new { @class = "theme_btn theme_btn3" })
-                                            </li>
-                                        }
-
-                                    }
-
+                                  
+                                        <li>
+                                            @Html.ActionLink("تسجيل الدخول", "Login", "USER", new { area = "" }, new { @class = "theme_btn theme_btn3" })
+                                        </li>
+                                   
 
                                 </ul>
                             </div>

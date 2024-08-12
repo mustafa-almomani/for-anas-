@@ -1,142 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\",
+  "WorkspaceRootPath": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\locallistcandidates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\locallistcandidates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\controllers\\locallistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\locallistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\debates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\debates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\generallistcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\generallistcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\admin\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\admin\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\debates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\debates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\user\\partyelections.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\user\\partyelections.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\user\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\user\\loginuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\result\\areas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\result\\areas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\result\\lists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\result\\lists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\result\\candidates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\result\\candidates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\result\\generallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\result\\generallist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\result\\generallistcandidates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\result\\generallistcandidates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\home\\useriformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\home\\useriformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\result\\selectresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\result\\selectresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\user\\localelections.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\user\\localelections.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\generallistings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\generallistings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\locallists\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\views\\locallists\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\locallists\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\controllers\\locallistcandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\locallistcandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\locallistcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\views\\locallistcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\locallistcandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\content\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\content\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\generallistings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\generallistings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\user\\typeofelection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\user\\typeofelection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\controllers\\generallistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\generallistingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\views\\advertisement\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\views\\advertisement\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|c:\\users\\almom\\onedrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\controllers\\locallistcandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744FC59F-157D-403E-B832-F7655C5DC2E0}|project_election\\project_election.csproj|solutionrelative:project_election\\controllers\\locallistcandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,440 +38,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T20:00:38.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout1.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Shared\\_Layout1.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Shared\\_Layout1.cshtml",
-              "ViewState": "AQIAAHwAAAAAAAAAAADgv4cAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T13:52:02.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\LocalListCandidates\\Index.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\LocalListCandidates\\Index.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\LocalListCandidates\\Index.cshtml*",
-              "RelativeToolTip": "project_election\\Views\\LocalListCandidates\\Index.cshtml*",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T23:10:17.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\GeneralListCandidates\\Create.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\GeneralListCandidates\\Create.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\GeneralListCandidates\\Create.cshtml",
-              "RelativeToolTip": "project_election\\Views\\GeneralListCandidates\\Create.cshtml",
-              "ViewState": "AQIAAMYAAAAAAAAAAAAAANMAAAAiAAAA",
+              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Views\\LocalLists\\Create.cshtml",
+              "RelativeDocumentMoniker": "project_election\\Views\\LocalLists\\Create.cshtml",
+              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Views\\LocalLists\\Create.cshtml",
+              "RelativeToolTip": "project_election\\Views\\LocalLists\\Create.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAE4AAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T13:55:06.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Lists.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\Lists.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Result\\Lists.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\Lists.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Result\\Lists.cshtml",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAwwIYAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T14:11:19.676Z",
+              "WhenOpened": "2024-08-12T20:01:33.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Debates\\Index.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Debates\\Index.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Debates\\Index.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Debates\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "project_election\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "project_election\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T08:51:37.685Z",
+              "WhenOpened": "2024-08-12T19:45:45.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Debates\\Create.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Debates\\Create.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Debates\\Create.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Debates\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T13:48:34.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GeneralList.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\GeneralList.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Result\\GeneralList.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\GeneralList.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Result\\GeneralList.cshtml",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAAACAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T14:10:13.821Z",
+              "DocumentIndex": 4,
+              "Title": "LocalListCandidatesController.cs",
+              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Controllers\\LocalListCandidatesController.cs",
+              "RelativeDocumentMoniker": "project_election\\Controllers\\LocalListCandidatesController.cs",
+              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Controllers\\LocalListCandidatesController.cs",
+              "RelativeToolTip": "project_election\\Controllers\\LocalListCandidatesController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:28:12.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Admin\\Home.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Admin\\Home.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Admin\\Home.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Admin\\Home.cshtml",
-              "ViewState": "AQIAAP0BAAAAAAAAAAAkwBcCAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T22:21:30.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Areas.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\Areas.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Result\\Areas.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\Areas.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Result\\Areas.cshtml",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAqwHUAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T14:01:37.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Candidates.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\Candidates.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Result\\Candidates.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\Candidates.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Result\\Candidates.cshtml",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAH0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T14:06:11.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PartyElections.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\PartyElections.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\USER\\PartyElections.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\PartyElections.cshtml",
-              "RelativeToolTip": "project_election\\Views\\USER\\PartyElections.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAqwGYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T08:41:51.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\LoginUser.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\USER\\LoginUser.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\LoginUser.cshtml",
-              "RelativeToolTip": "project_election\\Views\\USER\\LoginUser.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T16:59:00.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "project_election\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "project_election\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAuwH0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T22:19:59.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T08:17:46.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GeneralListCandidates.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\GeneralListCandidates.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Result\\GeneralListCandidates.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\GeneralListCandidates.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Result\\GeneralListCandidates.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAwwFIAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T14:10:33.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Useriformation.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\Useriformation.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Home\\Useriformation.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\Useriformation.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Home\\Useriformation.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T13:57:52.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ResultController.cs",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\ResultController.cs",
-              "RelativeDocumentMoniker": "project_election\\Controllers\\ResultController.cs",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\ResultController.cs",
-              "RelativeToolTip": "project_election\\Controllers\\ResultController.cs",
-              "ViewState": "AQIAAAwCAAAAAAAAAAAowBwCAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:22:36.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SelectResult.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\SelectResult.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Result\\SelectResult.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Result\\SelectResult.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Result\\SelectResult.cshtml",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAqwKcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T14:11:37.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "USERController.cs",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\USERController.cs",
-              "RelativeDocumentMoniker": "project_election\\Controllers\\USERController.cs",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\USERController.cs",
-              "RelativeToolTip": "project_election\\Controllers\\USERController.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAcwLkAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T07:01:29.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LocalElections.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\LocalElections.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\USER\\LocalElections.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\LocalElections.cshtml",
-              "RelativeToolTip": "project_election\\Views\\USER\\LocalElections.cshtml",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAqwI8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T07:08:21.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\GeneralListings\\Index.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\GeneralListings\\Index.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\GeneralListings\\Index.cshtml",
-              "RelativeToolTip": "project_election\\Views\\GeneralListings\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T23:28:17.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\LocalLists\\Create.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\LocalLists\\Create.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\LocalLists\\Create.cshtml",
-              "RelativeToolTip": "project_election\\Views\\LocalLists\\Create.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T06:47:56.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "map.css",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Content\\map.css",
-              "RelativeDocumentMoniker": "project_election\\Content\\map.css",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Content\\map.css",
-              "RelativeToolTip": "project_election\\Content\\map.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-08T05:51:17.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\Login.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\USER\\Login.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\Login.cshtml",
-              "RelativeToolTip": "project_election\\Views\\USER\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T14:17:41.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LocalListCandidatesController.cs",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\LocalListCandidatesController.cs",
-              "RelativeDocumentMoniker": "project_election\\Controllers\\LocalListCandidatesController.cs",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\LocalListCandidatesController.cs",
-              "RelativeToolTip": "project_election\\Controllers\\LocalListCandidatesController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwEgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T06:46:05.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\LocalListCandidates\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Views\\LocalListCandidates\\Create.cshtml",
               "RelativeDocumentMoniker": "project_election\\Views\\LocalListCandidates\\Create.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\LocalListCandidates\\Create.cshtml",
+              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Views\\LocalListCandidates\\Create.cshtml",
               "RelativeToolTip": "project_election\\Views\\LocalListCandidates\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T13:58:55.98Z",
+              "WhenOpened": "2024-08-12T19:25:34.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T05:54:06.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\GeneralListings\\Create.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\GeneralListings\\Create.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\GeneralListings\\Create.cshtml",
-              "RelativeToolTip": "project_election\\Views\\GeneralListings\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T13:55:52.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Home\\About.cshtml",
-              "ViewState": "AQIAAF0BAAAAAAAAAIAwwE8BAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T20:34:25.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "project_election\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "project_election\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAiAAAA",
+              "DocumentIndex": 0,
+              "Title": "LocalListsController.cs",
+              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Controllers\\LocalListsController.cs",
+              "RelativeDocumentMoniker": "project_election\\Controllers\\LocalListsController.cs",
+              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\for-anas-\\project_election\\project_election\\Controllers\\LocalListsController.cs*",
+              "RelativeToolTip": "project_election\\Controllers\\LocalListsController.cs*",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwD0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:51:00.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TypeOfElection.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\TypeOfElection.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\USER\\TypeOfElection.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\USER\\TypeOfElection.cshtml",
-              "RelativeToolTip": "project_election\\Views\\USER\\TypeOfElection.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T18:45:42.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "GeneralListingsController.cs",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\GeneralListingsController.cs",
-              "RelativeDocumentMoniker": "project_election\\Controllers\\GeneralListingsController.cs",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Controllers\\GeneralListingsController.cs",
-              "RelativeToolTip": "project_election\\Controllers\\GeneralListingsController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwDQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:23:14.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Payment.cshtml",
-              "DocumentMoniker": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Advertisement\\Payment.cshtml",
-              "RelativeDocumentMoniker": "project_election\\Views\\Advertisement\\Payment.cshtml",
-              "ToolTip": "C:\\Users\\almom\\OneDrive\\\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628\\project-5\\project5project_election\\project_election\\project_election\\Views\\Advertisement\\Payment.cshtml",
-              "RelativeToolTip": "project_election\\Views\\Advertisement\\Payment.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T13:07:29.074Z"
+              "WhenOpened": "2024-08-12T19:13:50.698Z",
+              "EditorCaption": ""
             }
           ]
         }
